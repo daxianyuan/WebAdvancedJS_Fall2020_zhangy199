@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Date Input (YYYY-MM-DD)</legend>
+                <label for="dateValue">Date: </label>
+                <input type="text" name="dateValue" id="dateValue">
+                <input type="submit" id="dateInput">
+            </fieldset>
+        </form>
+        <div>
+            <p>TIP: The first acquired images start on 2015-09-01</p>
+            <h2>Image Result</h2>
+            <span>Image Retrieval Status: </span><span id="imageStatus"></span>
+            <br>
+            <span>Image Caption: </span><span id="imageCaption"></span>
+            <br>
+            <br>
+            <h2>EPIC Image</h2>
+            <img id="imageID">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
